@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deluxe Company</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Fontawesome Link for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <script src="script.js" defer></script>
+
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <h1 class="logo">Deluxe Company</h1>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="lore.html">Lore</a></li>
+            <li><a href="division.html">Division</a></li>
+            <li><a href="system.html">System</a></li>
+            <li class="ctn"><a href="admin.html">Admin</a></li>
+        </ul>
+        <img src="./img/menu-btn.png" alt="" class="menu-btn">
+    </nav>
+    <header>
+        <div class="header-content">
+            <h2>Since 2020</h2>
+            <div class="line"></div>
+            <h1>Dwan Omega</h1>
+            <a href="https://www.instagram.com/dwan.omega_?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" class="ctn">Instagram</a>
+        </div>
+    </header>
+
+    <!-- == Divisi == -->
+    <section class="events">
+        <div class="title">
+            <h1>Deluxe Company All Division</h1>
+            <div class="line"></div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <img src="./D.O/command.png" alt="">
+                <h4>Command</h4>
+                <p>Divisi perintah, Tugas nya adalah melaksanakan tugas dari atasan untuk tugas bagian internal dan eksternal.</p>
+            </div>
+            <div class="col">
+                <img src="./D.O/science.png" alt="">
+                <h4>Science</h4>
+                <p>Bertugas menemukan biota, spesies tumbuhan, hewan maupun mahluk baru di wilayah yang temukan.</p>
+            </div>
+            <div class="col">
+                <img src="./D.O/engineer.png" alt="">
+                <h4>Engineer</h4>
+                <p>Memiliki 11/12 kesamaan dengan tugas dengan sain namun di bidang teknik mesin. Menemukan mesin dan perabotan baru dan mengupgrade untuk masa mendatang.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <img src="./D.O/investigation.png" alt="">
+                <h4>Investigation</h4>
+                <p>Tugas nya menginvestasi dan mengevakuasi tempat atau wilayah yang baru - Pekerjaan general, sebagai detektif yang bekerja pada di pemerintahan (formalitas)</p>
+            </div>
+            <div class="col">
+                <img src="./D.O/astrology.png" alt="">
+                <h4>Astrology</h4>
+                <p>Membaca bintang dan arah antar galaksi. biasanya berfokus ke internal dari perusahaan saja.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="footer">
+      <div class="footercontainer">
+      <div class="socialicons">
+        <a href="https://www.instagram.com/dwan.omega_?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="><i class="fa-brands fa-instagram"></i></a>
+      </div>
+
+      <div class="slogan">
+          <p>"NOT BLOOD, NOT NAME, NOT TITLE, NOT FAME"</p>
+      </div>
+
+      <div class="footerBottoms">
+        <p>Copyright ©2024 Deluxe Company</p>
+      </div>
+    </div>
+    </section>
+    <script>
+        const menuBtn = document.querySelector('.menu-btn')
+        const navlinks = document.querySelector('.nav-links')
+
+        menuBtn.addEventListener('click',()=>{
+            navlinks.classList.toggle('mobile-menu')
+        })
+    </script>
+</body>
+</html>

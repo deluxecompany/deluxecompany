@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deluxe Company</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Fontawesome Link for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <script src="script.js" defer></script>
+
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <h1 class="logo">Deluxe Company</h1>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="lore.html">Lore</a></li>
+            <li><a href="division.html">Division</a></li>
+            <li><a href="system.html">System</a></li>
+            <li class="ctn"><a href="admin.html">Admin</a></li>
+        </ul>
+        <img src="./img/menu-btn.png" alt="" class="menu-btn">
+    </nav>
+    <header>
+        <div class="header-content">
+            <h2>Since 2020</h2>
+            <div class="line"></div>
+            <h1>Dwan Omega</h1>
+            <a href="https://www.instagram.com/dwan.omega_?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" class="ctn">Instagram</a>
+        </div>
+    </header>
+
+    <section class="admin">
+      <div class="title">
+        <h1>Admin</h1>
+        <div class="line"></div>
+    </div>
+    <div class="wrapper">
+      <i id="left" class="fa-solid fa-angle-left"></i>
+      <ul class="carousel">
+        <li class="card">
+          <div class="img"><img src="./D.O/Untitled98_20240113090830.png" alt="img" draggable="false"></div>
+          <h2>Declan Giovanni</h2>
+          <span>The Captain</span>
+          <a href="https://www.instagram.com/ozzrfx._?igsh=ZXdscHN2eGdsNGpz" class="ctn">Instagram</a>
+        </li>
+        <li class="card">
+          <div class="img"><img src="./D.O/mike.png" alt="img" draggable="false"></div>
+          <h2>Michael S Hermoorez</h2>
+          <span>The Vice Captain</span>
+          <a href="https://www.instagram.com/george.re_?igsh=ZGUzMzM3NWJiOQ==" class="ctn">Instagram</a>
+        </li>
+        <li class="card">
+          <div class="img"><img src="./D.O/tsira.png" alt="img" draggable="false"></div>
+          <h2>Tsira van Berkenboosch</h2>
+          <span>The Secretary</span>
+          <a href="https://www.instagram.com/h3wn_jung?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" class="ctn">Instagram</a>
+        </li>
+        <li class="card">
+          <div class="img"><img src="./D.O/chizu.png" alt="img" draggable="false"></div>
+          <h2>Youkai Chizuki</h2>
+          <span>The Secretary</span>
+          <a href="https://www.instagram.com/murphy._o?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" class="ctn">Instagram</a>
+        </li>
+        <li class="card">
+          <div class="img"><img src="./D.O/Veryal • seragam resmi DO_20240114115657.png" alt="img" draggable="false"></div>
+          <h2>Veryal le Saint</h2>
+          <span>The Exchequer</span>
+          <a href="https://www.instagram.com/lulusy.komika?igsh=dXB2bHg5ZXo1bG8x" class="ctn">Instagram</a>
+        </li>
+        <li class="card">
+          <div class="img"><img src="./D.O/mitt uniform 2_20240114155323.png" alt="img" draggable="false"></div>
+          <h2>Mitt</h2>
+          <span>The Guard unit 01</span>
+          <a href="https://www.instagram.com/shu.art07?igsh=MThrZHdscXVvc2d6OQ==" class="ctn">Instagram</a>
+        </li>
+        <li class="card">
+          <div class="img"><img src="./D.O/litereli.png" alt="img" draggable="false"></div>
+          <h2>Zenith Yvine Heathers</h2>
+          <span>The Guard Unit 02</span>
+          <a href="https://www.instagram.com/une.riyunn_?igsh=bG1pcXM2c2RhdW9t" class="ctn">Instagram</a>
+        </li>
+      </ul>
+      <i id="right" class="fa-solid fa-angle-right"></i>
+    </div>
+    </section>
+
+    <section class="footer">
+      <div class="footercontainer">
+      <div class="socialicons">
+        <a href="https://www.instagram.com/dwan.omega_?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="><i class="fa-brands fa-instagram"></i></a>
+      </div>
+
+      <div class="slogan">
+          <p>"NOT BLOOD, NOT NAME, NOT TITLE, NOT FAME"</p>
+      </div>
+
+      <div class="footerBottoms">
+        <p>Copyright ©2024 Deluxe Company</p>
+      </div>
+    </div>
+    </section>
+    <script>
+        const menuBtn = document.querySelector('.menu-btn')
+        const navlinks = document.querySelector('.nav-links')
+
+        menuBtn.addEventListener('click',()=>{
+            navlinks.classList.toggle('mobile-menu')
+        })
+    </script>
+</body>
+</html>
